@@ -503,7 +503,7 @@ class CognitoAuthenticator(CognitoAuthenticatorBase):
 
             status_container.success("Logged in")
             time.sleep(1.5)
-            st.rerun()
+            
 
         logger.info("Trying to log in from saved credentials ...")
         logged_in = self._login_from_saved_credentials()
